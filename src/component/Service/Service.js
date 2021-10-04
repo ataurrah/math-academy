@@ -14,6 +14,7 @@ const Service = () => {
         , [])
     return (
         <div>
+            <h1>Enroll your required courses.learn with fun</h1>
             <Row xs={1} md={3} lg={4} className="g-4 ms-3">
                     {
                         book.map(book => <Book

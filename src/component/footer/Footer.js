@@ -18,7 +18,7 @@ const Footer = () => {
                     <div className="col-sm-4 col-md-3 item">
                         <h3>About</h3>
                         <ul>
-                            <li><a href="/">Company</a></li>
+                            <li><a href="/">Academy</a></li>
                             <li><a href="/">Team</a></li>
                             <li><a href="/">Legacy</a></li>
                         </ul>
@@ -26,12 +26,12 @@ const Footer = () => {
                     <div className="col-sm-4 col-md-3 item">
                         <h3>courses</h3>
                         <ul>
-                            <li><a href="/node_modules">Job openings</a></li>
-                            <li><a href="/">Employee success</a></li>
+                            <li><a href="/node_modules">MATHEMATICS</a></li>
+                            <li><a href="/">SKILL DEVELOPMENT</a></li>
                             <li><a href="/">Benefits</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 item social"><a href="https://www.facebook.com/profile.php?id=100006844984015"><i className="icon ion-social-facebook"></i></a><a href="https://twitter.com/amirataur"><i className="icon ion-social-twitter"></i></a><a href="#"><i className="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/amirataur/"><i className="icon ion-social-instagram"></i></a>
+                    <div className="col-lg-3 item social"><a href="https://www.facebook.com/profile.php?id=100006844984015"><i className="icon ion-social-facebook"></i></a><a href="https://twitter.com/amirataur"><i className="icon ion-social-twitter"></i></a><a href="/"><i className="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/amirataur/"><i className="icon ion-social-instagram"></i></a>
                         <p className="copyright">Math Academy © 2021</p>
                     </div>
                 </div>
