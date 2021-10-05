@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import { Card, Carousel, Col, Row } from 'react-bootstrap';
 import './about.css'
 
 const About = () => {
@@ -8,13 +8,19 @@ const About = () => {
     const img2 = 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80'
     const img3 = 'https://thumbs.dreamstime.com/b/handsome-man-hair-style-beard-beauty-face-portrait-fashion-male-model-black-hair-high-resolution-handsome-man-125031765.jpg'
     const img4 = 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+
+const newimg='https://media.istockphoto.com/photos/mature-mixed-race-business-man-picture-id1059661424?k=20&m=1059661424&s=612x612&w=0&h=CLL4tto10GPo1gtMR9c-kPmf8VkvodjvTyqvtEuTLtg='
+
+
     return (
+
         <div>
-            <h2 className='p-3'>Our team Member</h2>
+   
+         <div>   <h2 className='p-3'>Our team Member</h2>
             <Row xs={1} md={2} lg={4} className="m-3 g-4">
 
                 <Col>
-                    <Card>
+                    <Card >
                         <Card.Img className='imgg' variant={img3} src={img1} />
                         <Card.Body>
                             <Card.Title>ATAUR RAHMAN</Card.Title>
@@ -34,7 +40,7 @@ const About = () => {
                             <p>
                                 Developer
                             </p>
-                            <p>Email:amirataur@gmail.com</p>
+                            <p>Email:sayedur@gmail.com</p>
 
                         </Card.Body>
                     </Card>
@@ -66,8 +72,8 @@ const About = () => {
                     </Card>
                 </Col>
 
-                ))
-            </Row>
+            
+            </Row></div>
         </div>
     );
 };

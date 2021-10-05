@@ -17,8 +17,9 @@ const Home = () => {
         <div>
             <div className="d-flex mx-3">
                 <div className='col-md-5 home'>
-                    <h4 className='p-3'>Math Academy Learning Center is deeply committed to equity, honesty, kindness, and respect as part of the educational experience.strive to celebrate diversity both within our community and in our curriculum, we are concerned for the well-being; seek to build the self-esteem and aspire to promote understanding among all people.
+                    <h4 className='fw-bold p-3'>PREPARING STUDENTS FOR THE TOP UNIVERSITY MATH & SCIENCE PROGRAMS IN THE WORLD..
                     </h4>
+                    <p>Simply put, the goal of Math Academy is to develop middle-school and high-school students with the passion, skills and insight to excel in the honors math and science programs of the most elite universities in the world.</p>
                 </div>
                 <div className='col-md-7'>
                     <img className='img-fluid py-2' src={imgpic} alt="" />
