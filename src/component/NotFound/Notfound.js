@@ -1,17 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const Notfound = () => {
+    const imgs = 'https://www.prestashop.com/sites/default/files/styles/blog_750x320/public/blog/2019/10/banner_error_404.jpg?itok=eAS4swln'
     return (
         <div>
-            <h1 className='text-danger'>
-                404  </h1>
-                <h2 className='text-danger '>
-
-                This page is not avilable now.
-                </h2>
+            <img className='img-fluid w-100' src={imgs} alt="" />
 
         </div>
     );
 };
 
-export default Notfound ;
+export default Notfound;
